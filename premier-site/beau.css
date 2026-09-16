@@ -1,0 +1,166 @@
+
+.Sommaire {
+    background-color: #1a1a1a;
+    padding: 12px 0;
+    border-bottom : 2px solid #d4af37;
+}
+
+.Sommaire ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.Sommaire a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Sommaire a:hover {
+    color: #c0392b;
+}
+
+.titre-principal, .titre-secondaire {
+    color:#d4af37;
+    font-size: 40px;
+
+}
+
+.carte-modele img {
+    max-width:250px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carte-modele p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.carte-modele, .carte-modele p, .carte-modele:visited {
+    color:red;
+    text-decoration: none;
+}
+
+.grille-modeles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 30px;
+    margin-top: 30px;
+    padding: 0 40px;
+    max-width: 1400px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1 {
+    margin-top: 40px;
+}
+
+body {
+    bottom:0;
+    margin:0;
+    padding:0;
+    background-image:url('../images/instint.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: Arial ,sans-serif;
+}
+
+table{
+    background: linear-gradient(270deg, #f60000, #d4af37, #1862e1);
+    background-size: 600% 600%;
+    animation: degrade 2.5s ease infinite;
+    border: 3px solid transparent;
+    border-collapse: collapse;
+    max-width: 800px;
+    width: 50%;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+@keyframes degrade {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+td, th {
+    color:black;
+     padding: 1px 3px;
+    border: 1px solid red;
+}
+
+ul {
+    color:#c0392b;
+    
+}
+
+.lien {
+    color: #c0392b;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
+
+.rachat {
+    color: #c0392b;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.contact {
+    position:static;
+    bottom:0;
+    background-color: rgb(0, 0, 0);
+    margin-bottom:20px;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.snapchat {
+    color: white;
+    text-decoration:none;
+}
+
+.insta {
+    color: pink;
+    text-decoration:none;
+    position:right;
+}
+
+.contacter {
+    color:white;
+    text-decoration:none;
+
+}
+#boutonHaut {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #d4af37;
+    color: black;
+    border: none;
+    border-radius: 95%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
